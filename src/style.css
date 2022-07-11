@@ -1,0 +1,38 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-image: url("/imagen\ de\ fondo\ .webp");
+}
+
+header{
+    display: flex;
+    color: darkgoldenrod;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.logo1 img{
+    float: left;
+    height: 160px;
+    margin-right: 95px;
+}
+
+
+.logo2 img{
+    float:right;
+    height: 120px;
+}
+
+h1{
+    background: black;
+    height: 160px;
+    align-items: center;
+    display:block;
+    margin-right: 95px;
+}
+
+h2{
+    color: aliceblue;
+}
