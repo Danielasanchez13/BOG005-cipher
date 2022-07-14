@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CIPHER</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <head>
+   <title>CIPHER</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="index.js"></script>
+ </head>
     
        
-  <body>
-     <div class="page1">
-         <center>
-              <header>
-                
-                      <div class="logo1">
-                        <img src="FBI_Badge-removebg-preview.png" alt="logo1">
-                      </div>
-                    
-                       <H1>
-                        <br>BURO FEDERAL DE INVESTIGACION<br>BIENVENIDO A CIPHER  
-                      </H1>   
-                       <div class="logo2">
-                        <img src="FBI_Title_Text-removebg-preview.png" alt="logo2"> 
-                      </div>
-             </header> 
-        </center>
+ <body>
+  <!-- PAGUINA PRINCIPAL -->
+   <div class="page1">
+        <header>      
+          <div class="logo1">
+            <img src="FBI_Badge-removebg-preview.png" alt="logo1">
+          </div>  
         <center>
-             <nav>
-                  <h2>
-                        sí su mision es proteger y defender<br> 
-                        al pais de amenzas terroristas y de inteligencia extrangera,<br>
-                        ingrese su nombre
-                  </h2>
-                <script>
-                    var nombre = prompt(Agente);
-                </script>
-                <input type="text" id="nombre" placeholder="ingresa nombre"> 
-                <input type="button" value="ingresar" onclick="ingresar()">
-             </nav>  
-        </center>
-             <figure>
-
-             </figure>          
-            
-      </div>
-  </body>
+          <H1>
+           <br>BURO FEDERAL DE INVESTIGACIÓN<br>BIENVENIDO A CIPHER  
+          </H1> 
+        </center>  
+          <div class="logo2">
+           <img src="FBI_Title_Text-removebg-preview.png" alt="logo2"> 
+          </div>
+        </header> 
+     <center>
+        <nav>
+         <h2>
+           sí su misión es proteger y defender<br> 
+           al pais de amenzas terroristas y de inteligencia extrangera,<br>
+           ingrese su nombre<br> <br> <br> 
+         </h2>
+         <div>
+           <input type="text" name="nombre" id="nombreAgente" placeholder="ingresa nombre"> 
+           <input type="button" value="ingresar" onclick="ingresar()">
+         </div>
+         
+        </nav>
+     </center>           
+   </div>
+    <div class="page2">
+      <figure>
+        <div class="logo3">
+          <img src="FBI_Badge-removebg-preview.png" alt="">
+        </div>
+        <p id="saludo"></p>
+        <p>...</p>
+      </figure>
+    </div>
+ </body>
     
    
 </html>

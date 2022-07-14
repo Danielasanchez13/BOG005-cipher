@@ -1,38 +1,70 @@
 *{
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
-body{
-    background-image: url("/imagen\ de\ fondo\ .webp");
+.page2{
+    display: none;
 }
 
+body{
+    background-image: url("/imagen\ de\ fondo\ .webp");
+    color: darkgoldenrod;
+  
+
+}
 header{
     display: flex;
-    color: darkgoldenrod;
-    font-family:'Courier New', Courier, monospace;
-    
+    justify-content: space-between;
+    background: rgba(5, 26, 78, 0.909);
+    align-items: center;
+    padding: 10px;
 }
 
 .logo1 img{
-    float: left;
     height: 160px;
-    margin-right: 95px;
+    
 }
 
 
 .logo2 img{
-    float:right;
     height: 120px;
 }
 
-h1{
-    background: black;
-    height: 160px;
-    align-items: center;
-    display:block;
-    margin-right: 95px;
-}
 
 h2{
+    
+    margin-top: 150px;
     color: aliceblue;
+    
+
 }
+
+figure{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(5, 26, 78, 0.909);
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo3 img{
+    height: 160px;
+}
+a {
+    text-decoration: none;
+    color: darkorange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 30px;
+}
+nav a:hover{
+    color: antiquewhite;
+}
+#mensaje{
+    color: darkorange;
+}
+
