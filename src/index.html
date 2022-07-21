@@ -1,53 +1,61 @@
 <!DOCTYPE html>
-<html>
+<Html>
   <head>
-   <title>CIPHER</title>
-   <link rel="stylesheet" href="style.css">
-   <script src="index.js"></script>
- </head>
-    
-       
- <body>
-  <!-- PAGUINA PRINCIPAL -->
-   <div class="page1">
-        <header>      
-          <div class="logo1">
-            <img src="FBI_Badge-removebg-preview.png" alt="logo1">
-          </div>  
-        <center>
-          <H1>
-           <br>BURO FEDERAL DE INVESTIGACIÓN<br>BIENVENIDO A CIPHER  
-          </H1> 
-        </center>  
-          <div class="logo2">
-           <img src="FBI_Title_Text-removebg-preview.png" alt="logo2"> 
+    <title>CIPHER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!--PAGUINA PRINCIPAL-->
+     <div class="page1">
+	<header>
+            <div class="logo1">
+              <img src="FBI_Badge-removebg-preview.png" alt="logo1">
+            </div>  
+            <center>
+              <H1>
+                <br>BURO FEDERAL DE INVESTIGACIÓN<br>BIENVENIDO A CIPHER  
+              </H1> 
+            </center>  
+            <div class="logo2">
+             <img src="FBI_Title_Text-removebg-preview.png" alt="logo2"> 
+            </div>
+          </header> 
+          <center>
+            <nav>
+              <h2>
+                sí su misión es proteger y defender<br> 
+                al pais de amenzas terroristas y de inteligencia extrangera,<br>
+                ingrese su nombre<br> <br> <br> 
+              </h2>
+              <div id="input1">
+                <input type="text" name="nombre" id="nombreAgente" placeholder="ingresa nombre"> 
+                <input type="button" value="ingresar" onclick="ingresar()">
+              </div>
+            </nav>
+          </center>           
+     </div>
+     <!--PAGUINA SECUNDARIA-->
+     <div class="page2">
+        <figure>
+          <div class="logo3">
+               <img src="FBI_Badge-removebg-preview.png" alt="">
           </div>
-        </header> 
-     <center>
-        <nav>
-         <h2>
-           sí su misión es proteger y defender<br> 
-           al pais de amenzas terroristas y de inteligencia extrangera,<br>
-           ingrese su nombre<br> <br> <br> 
-         </h2>
-         <div>
-           <input type="text" name="nombre" id="nombreAgente" placeholder="ingresa nombre"> 
-           <input type="button" value="ingresar" onclick="ingresar()">
-         </div>
-         
-        </nav>
-     </center>           
-   </div>
-    <div class="page2">
-      <figure>
-        <div class="logo3">
-          <img src="FBI_Badge-removebg-preview.png" alt="">
-        </div>
-        <p id="saludo"></p>
-        <p>...</p>
-      </figure>
-    </div>
- </body>
-    
-   
-</html>
+          <p id="saludo"></p>
+       </figure>
+       <nav id="cifrador">
+	<form id="cifrador" autocomplete="off">
+	  <h3>CIFRADOR</h3>
+            <input type="text" name="codigo" id="inputCifrador" placeholder="ingresa texto a codificar" spellcheck="false
+            ">
+	</form>
+	<div id="mensajeResultado"></div>
+	<div class="rango">
+	  <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value ">	
+	  <output>10</output>
+	</div>
+       </nav>
+     </div>
+  </body>
+</Html>
+

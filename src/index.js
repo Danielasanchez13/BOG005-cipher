@@ -8,7 +8,7 @@ function ingresar(){
         document.getElementsByClassName("page2")[0].style.display="block";
         var mensaje= "BIENVENID@ AGENTE " + name;
         document.getElementById("saludo").innerHTML=mensaje; 
-        document.getElementsByClassName("page1").style.display="none";  
+        document.getElementsByClassName("page1")[0].style.display="none";  
     }  
 }
 
