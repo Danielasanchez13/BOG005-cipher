@@ -29,7 +29,7 @@
                 ingrese su nombre<br> <br> <br> 
               </h2>
               <div id="input1">
-                <input type="text" name="nombre" id="nombreAgente" placeholder="ingresa nombre"> 
+                <input type="text" name="nombre" id="nombreAgente" placeholder="ingresa nombre" autocomplete="off"> 
                 <input type="button" value="ingresar" onclick="ingresar()">
               </div>
             </nav>
@@ -44,18 +44,17 @@
           <p id="saludo"></p>
        </figure>
        <nav id="cifrador">
-	<form id="cifrador" autocomplete="off">
 	  <h3>CIFRADOR</h3>
-            <input type="text" name="codigo" id="inputCifrador" placeholder="ingresa texto a codificar" spellcheck="false
-            ">
-	</form>
-	<div id="mensajeResultado"></div>
-	<div class="rango">
+            <input type="text" name="codigo" id="mensaje" placeholder="ingresa texto a codificar" spellcheck="false
+            " autocomplete="off">
 	  <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value ">	
 	  <output>10</output>
-	</div>
+	  <button type="button" id="cifrar">CIFRAR</button>
+	  <button type="button" id="desifrar">DECIFRAR</button> 
+	  <input type="text" id="mensaje2">
        </nav>
      </div>
   </body>
+  <script src="cipher.js"></script>
 </Html>
 

@@ -12,6 +12,10 @@ function ingresar(){
     }  
 }
 
-
+function inicio(){
+	document.getElementById("mensaje").addEventListener("keyup",function(){
+		this.value = this.value.toUpperCase();
+	})
+}
 
 
