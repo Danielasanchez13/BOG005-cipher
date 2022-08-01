@@ -33,19 +33,15 @@ header{
 
 
 h2{
-    
     margin-top: 150px;
     color: aliceblue;
-    
-
 }
 
 figure{
     display: flex;
     background: rgba(5, 26, 78, 0.909);
     align-items: center;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 .logo3 img{
@@ -60,8 +56,7 @@ p#saludo {
 }
 
 section#cifrador{
-	display: flex;
-	flex-direction: column;
+	align-items: center;
 	 
 }
 h3{
@@ -70,16 +65,18 @@ h3{
 	font-size: 25px;
 }
 input#mensaje{
+	width: 350px;
+	height: 100px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid darkgoldenrod;
+	border-radius: 4px;
+	background-color: rgba(5, 26, 78, 0.909);
+	resize: none;
+	margin: 3%;
+	color: aliceblue;
 	
-  height: 100px;
-  padding: 10px 10px;
-  box-sizing: border-box;
-  border: 2px solid darkgoldenrod;
-  border-radius: 4px;
-  background-color: rgba(5, 26, 78, 0.909);
-  resize: none;
-  margin: 3%;
-
+  
 }
 input#desplazamiento {
 	align-items: center;
@@ -91,5 +88,27 @@ input#desplazamiento {
 	color: darkgoldenrod;
 	writing-mode: horizontal-tb !important;
 	padding: 3px;
+	align-items: center;
+}
+	
+input#mensaje2{
 
+	width: 350px;
+	height: 100px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid darkgoldenrod;
+	border-radius: 4px;
+	background-color: rgba(5, 26, 78, 0.909);
+	resize: none;
+	margin: 3%;
+	color: aliceblue;
+
+}
+
+
+
+button{
+	height: px;
+	width: 70px;
 }
