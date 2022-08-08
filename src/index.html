@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CIPHER</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
-  </head>
-  <body>
-     <!--PAGUINA PRINCIPAL-->
-     <div class="page1">
-	<header>
-            <div class="logo1">
-              <img src="FBI_Badge-removebg-preview.png" alt="logo1">
-            </div>  
-            <center>
-              <h1>
-                <br>BURO FEDERAL DE INVESTIGACIÓN<br>BIENVENIDO A CIPHER  
-              </h1> 
-            </center>  
-            <div class="logo2">
-             <img src="FBI_Title_Text-removebg-preview.png" alt="logo2"> 
-            </div>
-          </header> 
-          <center>
-            <nav>
-              <h2>
-                sí su misión es proteger y defender<br> 
-                al pais de amenzas terroristas y de inteligencia extrangera,<br>
-                ingrese su nombre<br> <br> <br> 
-              </h2>
-              <div id="input1">
-                <input type="text" name="nombre" id="nombreAgente" placeholder="ingresa nombre" autocomplete="off"> 
-                <button type="button" id="ingresarNombre" >INGRESAR</button>
-              </div>
-            </nav>
-          </center>           
-     </div>
-     <!--PAGUINA SECUNDARIA-->
-     <div class="page2">
-        <figure>
-          <div class="logo3">
-               <img src="FBI_Badge-removebg-preview.png" alt="">
-          </div>
-          <p id="saludo"></p>
-       </figure>
-       <section id="cifrador">
-           <h3>CIFRADOR</h3>
-           <input type="text" name="codigo" id="mensaje" placeholder="ingresa texto a codificar" spellcheck="false
-            " autocomplete="off">
-           <input type="number" id="desplazamiento" size="4">	
-           <button type="button" id="cifrar">CIFRAR</button>
-           <button type="button" id="descifrar">DESCIFRAR</button> 
-            <input type="text" id="mensaje2" placeholder="mensaje">
-        </section>
-     </div>
-  </body>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-</html>
 
+<head>
+	<title>CIPHER</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<!--PAGUINA PRINCIPAL-->
+	<div class="page1">
+		<header>
+			<div class="logo1">
+				<img src="FBI_Badge-removebg-preview.png" alt="logo1">
+			</div>
+			<center>
+				<h1>
+					<br>BURO FEDERAL DE INVESTIGACIÓN<br>BIENVENIDO A CIPHER
+				</h1>
+			</center>
+			<div class="logo2">
+				<img src="FBI_Title_Text-removebg-preview.png" alt="logo2">
+			</div>
+		</header>
+		<center>
+			<nav>
+				<h2>
+					sí su misión es proteger y defender<br>
+					al pais de amenzas terroristas y de inteligencia extrangera,<br>
+					ingrese su nombre<br> <br> <br>
+				</h2>
+				<div id="input1">
+					<input type="text" name="nombre" id="nombreAgente"
+						placeholder="ingresa nombre" autocomplete="off">
+					<button type="button" id="ingresarNombre">INGRESAR</button>
+				</div>
+			</nav>
+		</center>
+	</div>
+	<!--PAGUINA SECUNDARIA-->
+	<div class="page2">
+		<figure>
+			<div class="logo3">
+				<img src="FBI_Badge-removebg-preview.png" alt="">
+			</div>
+			<p id="saludo"></p>
+		</figure>
+		<section id="cifrador">
+			<h3>CIFRADOR</h3>
+			<input type="text" name="codigo" id="mensaje" placeholder="ingresa texto a codificar"
+				spellcheck="false
+            " autocomplete="off">
+			<input type="number" id="desplazamiento" size="4">
+			<button type="button" id="cifrar">CIFRAR</button>
+			<button type="button" id="descifrar">DESCIFRAR</button>
+			<input type="text" id="mensaje2" placeholder="mensaje">
+		</section>
+	</div>
+</body>
+<script src="index.js" type="module"></script>
+
+</html>
