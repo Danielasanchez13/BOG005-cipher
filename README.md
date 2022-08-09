@@ -5,11 +5,7 @@
 * [1. Resumen del proyecto ](#1-resumen-del.proyecto)
 * [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
 * [3. la interfas de debe permitir al usuario](#3-la-interfaz-debe-permitir-al-usuario)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [4. Autor](#4-autor)
 
 ***
 
