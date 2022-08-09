@@ -85,10 +85,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 
 ### JavaScript
-
 - [x] **Tipos de datos primitivos**
-
-
   * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
 
 
